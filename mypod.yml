@@ -6,6 +6,6 @@ spec:
   containers: 
   - name: myfirst-container
     image: nginx
-    port: 
+    ports: 
     - containerPort: 80 
   
