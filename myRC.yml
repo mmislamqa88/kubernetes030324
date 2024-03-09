@@ -6,16 +6,16 @@ spec:
   replicas: 2
   selector: 
     app: myjavacontainer
-    version: 2.6.1
+    version: 2.6.2
   template: 
     metadata: 
       labels: 
         app: myjavacontainer
-        version: 2.6.1
+        version: 2.6.2
     spec: 
       containers: 
       - name: mynginx-container
-        image: raiyan19/myjavaapp111223:1 
+        image: raiyan19/myjavaapp111223:2 
         ports:
           - containerPort: 8080
   
